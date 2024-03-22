@@ -1,7 +1,7 @@
-cached_dataset/
-event_data/
+cached_dataset
+event_data
 output/
-metadata/
+metadata
 visualize/
 __pycache__/
 *.pyc

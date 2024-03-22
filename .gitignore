@@ -1,0 +1,8 @@
+cached_dataset/
+event_data/
+output/
+metadata/
+visualize/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

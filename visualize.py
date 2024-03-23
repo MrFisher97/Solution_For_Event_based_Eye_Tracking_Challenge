@@ -32,7 +32,7 @@ def main(args):
         T.NormalizeLabel(pseudo_width=640*factor, pseudo_height=480*factor)
     ])
 
-    split = 'val'
+    split = args.split
     if split == 'val':
         lenth = args.val_length
         stride = args.val_stride
@@ -181,6 +181,9 @@ if __name__ == "__main__":
     
     parser.add_argument("--checkpoint", 
                         default="output/CNN_GRU_base/240316014519/model_best_ep679_val_loss_0.0391.pth")
+    
+    parser.add_argument("--split", 
+                        default="test")
 
     args = parser.parse_args()
     main(args)

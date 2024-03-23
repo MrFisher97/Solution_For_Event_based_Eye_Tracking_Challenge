@@ -101,7 +101,7 @@ if __name__ == "__main__":
     
     # a config file 
     parser.add_argument("--config_file", 
-                        default="task_local.yaml", 
+                        default="task.yaml", 
                         help="path to YAML configuration file")
     # load weights from a checkpoint
     parser.add_argument("--checkpoint",  

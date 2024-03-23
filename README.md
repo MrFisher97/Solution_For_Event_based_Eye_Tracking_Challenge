@@ -2,7 +2,7 @@
 
 AIS 2024  Event-based Eye Tracking (CVPR Workshop 2024) 2nd Solution.
 
-### Environment
+## Environment
 - Ubuntu22.04
 - Python3.9
 - Nvidia GPU1080Ti
@@ -31,7 +31,7 @@ The result are shown below:
 |P15 acc|0.985|-|
 |Dist|2.50|-|
 
-### Instruction
+## Instruction
 #### Configuration
 The configuration for training, evaluation and test is set on the `configs/task.yaml`, modify it according to your need.
 
@@ -56,7 +56,7 @@ Using the following command to visualze the tracking result on eval/test split:
 python visualize --config_file task.yaml --checkpoint your_model_path --split test
 ```
 
-### Other details
+## Other details
 
-### Acknowledgement
+## Acknowledgement
 This code is based on the https://github.com/EETChallenge/challenge_demo_code
